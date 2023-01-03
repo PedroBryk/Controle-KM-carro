@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #E0DDD6;
 }
 
 .formulario{
@@ -15,6 +16,8 @@ body{
     justify-content: center;
     border: 2px solid black;
     width: 30%;
+    padding: 5px;
+    background-color: #E6E5E1;
    
 }
 
@@ -27,5 +30,5 @@ label{
 }
 
 button{
-    margin-top: .5%;
+    margin-top: 2%;
 }

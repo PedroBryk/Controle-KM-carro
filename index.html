@@ -13,37 +13,34 @@
 </head>
 <body>
     <main>
-
         <section class="formulario">
+            <div class="info">
+                <img src="./assets/img/logo.png" class="img-info" alt="logotipo">
+            </div>
             <form class="controle-form" action="https://api.sheetmonkey.io/form/9RKwBYbk918Pon5pZb7GWU" method="post">
-                <h1>Controle KM carro</h1>
+                <h1>Controle odômetro veicular</h1>
         
                 <label>
-                    <span>Km início</span>
-                    <input type="number" name="KM início">
+                    <input type="number" placeholder="Km início" name="KM início">
                 </label>
         
                 <label>
-                    <span>Km fim</span>
-                    <input type="number" name="KM fim">
+                    <input type="number" placeholder="Km fim" name="KM fim">
                 </label>
         
                 <label>
-                    <span>Usuário</span>
-                    <input type="text" name="Usuário">
+                    <input type="text" placeholder="Usuário" name="Usuário">
                 </label>
-    
+        
                 <label>
-                    <span>Data</span>
+                    <input type="text" placeholder="Motivo" name="Motivo">
+                </label>
+
+                <label>
                     <input type="date" name="Data">
                 </label>
         
-                <label>
-                    <span>Motivo</span>
-                    <input type="text" name="Motivo">
-                </label>
-        
-                <button type="submit">Enviar</button>
+                <button class="sub-btn" type="submit">Enviar</button>
             </form>
         </section>
         

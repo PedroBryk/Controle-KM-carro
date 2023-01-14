@@ -26,3 +26,16 @@ button a{
     text-decoration: none;
     color: #EFEFEF;
 }
+
+
+    @media(max-width: 600px){
+
+        .logo{
+            width: 70%;
+        }
+
+        h1{
+            font-size: 22px;
+        }
+
+}

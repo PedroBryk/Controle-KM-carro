@@ -66,3 +66,11 @@ input{
 .sub-btn:hover{
     background-color: #04BF8A;
 }
+
+    @media(max-width: 600px){
+
+        .img-info{
+            display: none;
+        }
+
+}
